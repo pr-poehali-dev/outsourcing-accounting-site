@@ -44,39 +44,39 @@ function Index() {
 
   const plans = [
     {
-      name: 'Базовый',
-      price: '5 000',
-      period: 'в месяц',
-      features: [
-        'Ведение учета УСН',
-        'Сдача отчетности',
-        'Консультации по телефону',
-        'Документооборот'
-      ]
-    },
-    {
-      name: 'Стандарт',
-      price: '12 000',
-      period: 'в месяц',
-      popular: true,
-      features: [
-        'Ведение учета УСН/ОСНО',
-        'Полная отчетность',
-        'Кадровый учет',
-        'Консультации юриста',
-        'Электронный документооборот'
-      ]
-    },
-    {
-      name: 'Премиум',
+      name: 'Базовое обслуживание',
       price: '25 000',
       period: 'в месяц',
       features: [
-        'Все услуги стандарт',
+        'Ведение бухгалтерского учета',
+        'Подготовка и сдача отчетности',
+        'Консультации специалистов',
+        'Ведение документооборота'
+      ]
+    },
+    {
+      name: 'Полное обслуживание',
+      price: '45 000',
+      period: 'в месяц',
+      popular: true,
+      features: [
+        'Полный бухгалтерский учет',
+        'Все виды отчетности',
+        'Кадровое делопроизводство',
+        'Юридическое сопровождение',
+        'Персональный менеджер'
+      ]
+    },
+    {
+      name: 'Комплексное решение',
+      price: 'от 65 000',
+      period: 'в месяц',
+      features: [
+        'Индивидуальные решения',
+        'Специализированная отчетность',
         'Воинский учет',
-        'Специальная отчетность',
-        'Персональный менеджер',
-        'Выездные консультации'
+        'Выездное обслуживание',
+        'Круглосуточная поддержка'
       ]
     }
   ]
@@ -224,14 +224,6 @@ function Index() {
                     <div className="text-3xl font-heading font-bold text-primary mb-2">10+</div>
                     <div className="text-gray-600">Лет опыта</div>
                   </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-heading font-bold text-primary mb-2">99%</div>
-                    <div className="text-gray-600">Без штрафов</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-heading font-bold text-primary mb-2">24/7</div>
-                    <div className="text-gray-600">Поддержка</div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -314,7 +306,7 @@ function Index() {
                     </div>
                     <div>
                       <div className="font-medium text-gray-900">Телефон</div>
-                      <div className="text-gray-600">+7 (495) 123-45-67</div>
+                      <div className="text-gray-600">+7 905 508-71-57</div>
                     </div>
                   </div>
                   
@@ -324,7 +316,7 @@ function Index() {
                     </div>
                     <div>
                       <div className="font-medium text-gray-900">Email</div>
-                      <div className="text-gray-600">info@buhautsors.ru</div>
+                      <div className="text-gray-600">ktv111178@gmail.com</div>
                     </div>
                   </div>
                   
@@ -334,7 +326,7 @@ function Index() {
                     </div>
                     <div>
                       <div className="font-medium text-gray-900">Адрес</div>
-                      <div className="text-gray-600">г. Москва, ул. Примерная, д. 1</div>
+                      <div className="text-gray-600">г. Москва, Рязанский проспект 8Ас1</div>
                     </div>
                   </div>
                   
@@ -422,8 +414,8 @@ function Index() {
             <div>
               <h4 className="font-heading font-semibold mb-4">Контакты</h4>
               <div className="space-y-2 text-sm">
-                <div className="text-gray-400">+7 (495) 123-45-67</div>
-                <div className="text-gray-400">info@buhautsors.ru</div>
+                <div className="text-gray-400">+7 905 508-71-57</div>
+                <div className="text-gray-400">ktv111178@gmail.com</div>
                 <div className="text-gray-400">г. Москва</div>
               </div>
             </div>
